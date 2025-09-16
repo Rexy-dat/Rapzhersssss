@@ -21,6 +21,8 @@ const fetch = require('node-fetch');
 const FormData = require('form-data');
 const { fromBuffer } = require('file-type');
 const ownerFile = "./database/Owner.json";
+const premiumFile = "./database/Premium.json";
+const adminFile = "./database/Admin.json";
 
 let bots = [];
 let sock = null;
